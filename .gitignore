@@ -1,0 +1,17 @@
+# Visual Studio temporary files
+*.obj
+*.exe
+*.ilk
+*.pdb
+*.idb
+*.VC.db
+*.suo
+*.user
+*.cache
+*.log
+
+# Ignore build directories
+x64/
+Debug/
+Release/
+.vs/
