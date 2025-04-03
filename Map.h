@@ -7,8 +7,8 @@
 class Map {
 public:
     char grid[ROWS][COLS];
-    Map();
+    
     void LoadMap();
+  Map();
 };
-
 #endif

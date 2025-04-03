@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projek\\PacMan\\",
+  "WorkspaceRootPath": "C:\\Game jam\\Sembarang GimJam\\Project_Matakuliah3D\\PacMan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|D:\\Projek\\PacMan\\Pacman.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|solutionrelative:Pacman.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|D:\\Projek\\PacMan\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|C:\\Game jam\\Sembarang GimJam\\Project_Matakuliah3D\\PacMan\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|D:\\Projek\\PacMan\\Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|solutionrelative:Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|C:\\Game jam\\Sembarang GimJam\\Project_Matakuliah3D\\PacMan\\GhostState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|solutionrelative:GhostState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|D:\\Projek\\PacMan\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|solutionrelative:Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|C:\\Game jam\\Sembarang GimJam\\Project_Matakuliah3D\\PacMan\\GhostState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|solutionrelative:GhostState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|C:\\Game jam\\Sembarang GimJam\\Project_Matakuliah3D\\PacMan\\Ghost.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|solutionrelative:Ghost.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|C:\\Game jam\\Sembarang GimJam\\Project_Matakuliah3D\\PacMan\\Ghost.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|solutionrelative:Ghost.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,51 +35,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Pacman.cpp",
-              "DocumentMoniker": "D:\\Projek\\PacMan\\Pacman.cpp",
-              "RelativeDocumentMoniker": "Pacman.cpp",
-              "ToolTip": "D:\\Projek\\PacMan\\Pacman.cpp",
-              "RelativeToolTip": "Pacman.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Title": "Main.cpp",
+              "DocumentMoniker": "C:\\Game jam\\Sembarang GimJam\\Project_Matakuliah3D\\PacMan\\Main.cpp",
+              "RelativeDocumentMoniker": "Main.cpp",
+              "ToolTip": "C:\\Game jam\\Sembarang GimJam\\Project_Matakuliah3D\\PacMan\\Main.cpp",
+              "RelativeToolTip": "Main.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-02T07:20:21.935Z",
+              "WhenOpened": "2025-04-03T03:21:01.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GhostState.cpp",
+              "DocumentMoniker": "C:\\Game jam\\Sembarang GimJam\\Project_Matakuliah3D\\PacMan\\GhostState.cpp",
+              "RelativeDocumentMoniker": "GhostState.cpp",
+              "ToolTip": "C:\\Game jam\\Sembarang GimJam\\Project_Matakuliah3D\\PacMan\\GhostState.cpp",
+              "RelativeToolTip": "GhostState.cpp",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-03T03:18:25.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Map.cpp",
-              "DocumentMoniker": "D:\\Projek\\PacMan\\Map.cpp",
-              "RelativeDocumentMoniker": "Map.cpp",
-              "ToolTip": "D:\\Projek\\PacMan\\Map.cpp",
-              "RelativeToolTip": "Map.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Title": "GhostState.h",
+              "DocumentMoniker": "C:\\Game jam\\Sembarang GimJam\\Project_Matakuliah3D\\PacMan\\GhostState.h",
+              "RelativeDocumentMoniker": "GhostState.h",
+              "ToolTip": "C:\\Game jam\\Sembarang GimJam\\Project_Matakuliah3D\\PacMan\\GhostState.h",
+              "RelativeToolTip": "GhostState.h",
+              "ViewState": "AgIAABUAAAAAAAAAAAD4vx4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-03T03:15:05.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ghost.cpp",
+              "DocumentMoniker": "C:\\Game jam\\Sembarang GimJam\\Project_Matakuliah3D\\PacMan\\Ghost.cpp",
+              "RelativeDocumentMoniker": "Ghost.cpp",
+              "ToolTip": "C:\\Game jam\\Sembarang GimJam\\Project_Matakuliah3D\\PacMan\\Ghost.cpp",
+              "RelativeToolTip": "Ghost.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-02T07:09:33.434Z"
+              "WhenOpened": "2025-04-03T02:37:04.72Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Map.h",
-              "DocumentMoniker": "D:\\Projek\\PacMan\\Map.h",
-              "RelativeDocumentMoniker": "Map.h",
-              "ToolTip": "D:\\Projek\\PacMan\\Map.h",
-              "RelativeToolTip": "Map.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Title": "Ghost.h",
+              "DocumentMoniker": "C:\\Game jam\\Sembarang GimJam\\Project_Matakuliah3D\\PacMan\\Ghost.h",
+              "RelativeDocumentMoniker": "Ghost.h",
+              "ToolTip": "C:\\Game jam\\Sembarang GimJam\\Project_Matakuliah3D\\PacMan\\Ghost.h",
+              "RelativeToolTip": "Ghost.h",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAjwAgAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-02T07:09:20.365Z"
+              "WhenOpened": "2025-04-03T02:32:53.534Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Main.cpp",
-              "DocumentMoniker": "D:\\Projek\\PacMan\\Main.cpp",
-              "RelativeDocumentMoniker": "Main.cpp",
-              "ToolTip": "D:\\Projek\\PacMan\\Main.cpp",
-              "RelativeToolTip": "Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-28T11:45:13.86Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }
