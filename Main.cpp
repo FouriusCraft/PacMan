@@ -74,7 +74,7 @@ void UpdateGame() {
 int main() {
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Pac-Man");
     SetTargetFPS(60);
-
+	std::cout << "hi" << std::endl;
     while (!WindowShouldClose()) {
         UpdateGame();
 

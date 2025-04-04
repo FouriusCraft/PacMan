@@ -6,7 +6,7 @@
 class Ghost {
 public:
     int x, y;
-    GhostState*state;
+    GhostState* state;
 
     Ghost(int startX, int startY);
     void Move(int dx, int dy);

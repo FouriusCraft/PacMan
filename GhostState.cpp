@@ -1,54 +1,48 @@
-﻿#ifndef GHOST_STATE_H
-#define GHOST_STATE_H
-
+﻿#include "GhostState.h"
 #include "Ghost.h"
 #include "Pacman.h"
 #include <cstdlib>
 #include <cmath>
 
-// State Interface
-class GhostState {
-public:
-    virtual ~GhostState() = default;
-    virtual void Move(Ghost* ghost) = 0;
-};
+// ChaseState
+void ChaseState::Move(Ghost* ghost) {
+    extern Pacman pacman;
 
+    int dx = pacman.x - ghost->x;
+    int dy = pacman.y - ghost->y;
 
-class ChaseState : public GhostState {
-public:
-    void Move(Ghost* ghost) override {
-        extern Pacman pacman; // Mengakses Pacman dari main
-
-        int dx = pacman.x - ghost->x;
-        int dy = pacman.y - ghost->y;
-
-        if (std::abs(dx) > std::abs(dy)) {
-            ghost->Move(dx > 0 ? 1 : -1, 0); // Prioritas ke kanan/kiri
-        }
-        else {
-            ghost->Move(0, dy > 0 ? 1 : -1); // Prioritas ke atas/bawah
-        }
+    if (std::abs(dx) > std::abs(dy)) {
+        ghost->Move(dx > 0 ? 1 : -1, 0);
     }
-};
-
-
-class WanderState : public GhostState {
-public:
-    void Move(Ghost* ghost) override {
-        int dx = (rand() % 3) - 1; // -1, 0, 1
-        int dy = (rand() % 3) - 1; // -1, 0, 1
-        ghost->Move(dx, dy);
+    else {
+        ghost->Move(0, dy > 0 ? 1 : -1);
     }
-};
+}
 
+// WanderState
+void WanderState::Move(Ghost* ghost) {
+    int dx = (rand() % 3) - 1;
+    int dy = (rand() % 3) - 1;
+    ghost->Move(dx, dy);
+}
 
-class FrightenedState : public GhostState {
-public:
-    void Move(Ghost* ghost) override {
-        int dx = (rand() % 3) - 1;
-        int dy = (rand() % 3) - 1;
-        ghost->Move(dx, dy);
+// FrightenedState
+void FrightenedState::Move(Ghost* ghost) {
+    int dx = (rand() % 3) - 1;
+    int dy = (rand() % 3) - 1;
+    ghost->Move(dx, dy);
+}
+
+// ReturnToBaseState
+void ReturnToBaseState::Move(Ghost* ghost) {
+    // Contoh logika sederhana: kembalikan ke posisi (9,9)
+    int dx = 9 - ghost->x;
+    int dy = 9 - ghost->y;
+
+    if (std::abs(dx) > std::abs(dy)) {
+        ghost->Move(dx > 0 ? 1 : -1, 0);
     }
-};
-
-#endif
+    else if (dy != 0) {
+        ghost->Move(0, dy > 0 ? 1 : -1);
+    }
+}
