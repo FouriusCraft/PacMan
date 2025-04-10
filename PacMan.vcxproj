@@ -127,15 +127,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="config.h" />
+    <ClInclude Include="Ghost.h" />
+    <ClInclude Include="GhostDecorator.h" />
+    <ClInclude Include="GhostFactory.h" />
+    <ClInclude Include="GhostState.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="Pacman.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="Ghost.cpp" />
+    <ClCompile Include="GhostDecorator.cpp" />
+    <ClCompile Include="GhostFactory.cpp" />
+    <ClCompile Include="GhostState.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="Pacman.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Ghost.h" />
-    <ClInclude Include="Map.h" />
-    <ClInclude Include="Pacman.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

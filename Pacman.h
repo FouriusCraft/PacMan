@@ -3,7 +3,7 @@
 
 class Pacman {
 public:
-    int x, y; // Posisi dalam grid
+    int x, y;
     Pacman(int startX, int startY);
     void Move(int dx, int dy);
 };
