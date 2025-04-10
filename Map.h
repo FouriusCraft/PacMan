@@ -1,14 +1,14 @@
 #ifndef MAP_H
 #define MAP_H
 
-#define ROWS 11
-#define COLS 20
+#include "config.h"
 
 class Map {
 public:
     char grid[ROWS][COLS];
-    
+    Map();
     void LoadMap();
-  Map();
+    bool IsWalkable(int x, int y) const;
 };
+
 #endif

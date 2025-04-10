@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\Projek\\PacMan\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|D:\\Projek\\PacMan\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|D:\\Projek\\PacMan\\Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|solutionrelative:Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|D:\\Projek\\PacMan\\GhostState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|solutionrelative:GhostState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|D:\\Projek\\PacMan\\config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{731CE5A6-A43A-450F-97DE-DC1C621B2F39}|PacMan.vcxproj|solutionrelative:config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "config.h",
+              "DocumentMoniker": "D:\\Projek\\PacMan\\config.h",
+              "RelativeDocumentMoniker": "config.h",
+              "ToolTip": "D:\\Projek\\PacMan\\config.h",
+              "RelativeToolTip": "config.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-10T16:26:11.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Map.cpp",
+              "DocumentMoniker": "D:\\Projek\\PacMan\\Map.cpp",
+              "RelativeDocumentMoniker": "Map.cpp",
+              "ToolTip": "D:\\Projek\\PacMan\\Map.cpp",
+              "RelativeToolTip": "Map.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-10T16:25:43.324Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "D:\\Projek\\PacMan\\Main.cpp",
+              "RelativeDocumentMoniker": "Main.cpp",
+              "ToolTip": "D:\\Projek\\PacMan\\Main.cpp",
+              "RelativeToolTip": "Main.cpp",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAmwE0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-10T16:09:51.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GhostState.cpp",
               "DocumentMoniker": "D:\\Projek\\PacMan\\GhostState.cpp",
               "RelativeDocumentMoniker": "GhostState.cpp",
               "ToolTip": "D:\\Projek\\PacMan\\GhostState.cpp",
               "RelativeToolTip": "GhostState.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-03T03:18:25.177Z",
+              "WhenOpened": "2025-04-10T16:16:30.171Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

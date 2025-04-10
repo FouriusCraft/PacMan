@@ -1,7 +1,8 @@
 #include "Ghost.h"
-#include <iostream>
 
 Ghost::Ghost(int startX, int startY) : x(startX), y(startY), state(nullptr) {}
+
+Ghost::~Ghost() {}
 
 void Ghost::Move(int dx, int dy) {
     x += dx;
@@ -13,7 +14,6 @@ void Ghost::SetState(GhostState* newState) {
 }
 
 void Ghost::Update() {
-    if (state) {
+    if (state)
         state->Move(this);
-    }
 }

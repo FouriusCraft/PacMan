@@ -5,29 +5,29 @@ class Ghost; // Forward declaration
 
 class GhostState {
 public:
-    virtual void Move(Ghost* ghost) = 0; 
+    virtual void Move(Ghost* ghost) = 0;
     virtual ~GhostState() {}
 };
 
-// Ghost mengejar Pac-Man
+// State ketika ghost mengejar Pacman
 class ChaseState : public GhostState {
 public:
     void Move(Ghost* ghost) override;
 };
 
-// Ghost bergerak secara acak
+// State ketika ghost bergerak acak
 class WanderState : public GhostState {
 public:
     void Move(Ghost* ghost) override;
 };
 
-// Ghost run setelah Pac-Man makan power pellet
+// State ghost setelah Pacman makan power pellet (bergerak erratik)
 class FrightenedState : public GhostState {
 public:
     void Move(Ghost* ghost) override;
 };
 
-// Ghost kembali ke rumah setelah dimakan
+// State ghost kembali ke markas
 class ReturnToBaseState : public GhostState {
 public:
     void Move(Ghost* ghost) override;

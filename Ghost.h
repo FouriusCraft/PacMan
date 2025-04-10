@@ -7,11 +7,11 @@ class Ghost {
 public:
     int x, y;
     GhostState* state;
-
     Ghost(int startX, int startY);
-    void Move(int dx, int dy);
-    void SetState(GhostState* newState);
-    void Update();
+    virtual ~Ghost();
+    virtual void Move(int dx, int dy);
+    virtual void SetState(GhostState* newState);
+    virtual void Update();
 };
 
 #endif
